@@ -13,6 +13,7 @@ terraform {
 
   cloud {
     organization = "bcdfs"
+    
 
     workspaces {
       name = "gh-actions-demo"
